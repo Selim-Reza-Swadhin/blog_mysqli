@@ -1,0 +1,127 @@
+.read{
+    color: white;
+    float: right;
+    margin-left: 400px;
+    margin-top: -15px;
+    display: block;
+    border: 1px solid red;
+    background-color: green;
+    padding: 4px 8px;
+    border-radius: 13px;
+    text-decoration: none;
+}
+.read:hover{
+    background-color: yellow;
+    border: 1px dashed green;
+}
+.total{
+    color: white;
+    float: right;
+    margin-left: 0px;
+    margin-top: -15px;
+    display: block;
+    border: 1px dotted red;
+    background-color: #444;
+    padding: 4px 8px;
+    border-radius: 13px;
+    text-decoration: none;
+}
+.total:hover{
+    background-color:#0060ad;
+    border: 1px double green;
+}
+.clear{overflow:hidden;}
+.pagination{
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.pagination a{
+    background: #e6af4b none repeat scroll 0 0;
+    border: 1px solid #a7700c;
+    border-radius:3px;
+    color: #333;
+    margin-left: 2px;
+    padding: 2px 10px;
+    text-decoration: none;
+}
+.pagination a:hover{
+    background: #be8773 none repeat scroll 0 0;
+    color: #fff;
+}
+
+/*==============================================================
+
+                    Social Icon Start
+  ==============================================================*/
+
+
+.facebook:hover{
+    background:#3B5998;
+    color:#fff;
+    transition:.7s;
+    transform:rotate(360deg) scale(1.5);
+    padding: 0 5px;
+    border-radius:50%;
+}
+
+.twitter:hover{
+    background:#3a9fed;
+    color:#fff;
+    transition:.7s;
+    border-radius:50%;
+    transform:rotate(360deg) scale(1.5);
+}
+
+.linkedin:hover{
+    background:#0060ad;
+    color:#fff;
+    transition:.7s;
+    border-radius:50%;
+    transform:rotate(360deg) scale(1.5);
+}
+
+.google-plus:hover{
+    background:#DB4437;
+    color:#fff;
+    transition:.7s;
+    border-radius:50%;
+    transform:rotate(360deg) scale(1.5);
+}
+
+.instagram:hover{
+    background:#E4405F;
+    color:#fff;
+    transition:.7s;
+    border-radius:50%;
+    transform:rotate(360deg) scale(1.5);
+}
+
+.github:hover{
+    background:#444;
+    color:#fff;
+    transition:.7s;
+    border-radius:50%;
+    transform:rotate(360deg) scale(1.5);
+}
+
+.pinterest:hover{
+    background:#F72322;
+    color:#fff;
+    transition:.7s;
+    border-radius:50%;
+    transform:rotate(360deg) scale(1.5);
+}
+
+.skype:hover{
+    background:#3B5998;
+    color:#fff;
+    transition:.7s;
+    transform:rotate(360deg) scale(1.5);
+    padding: 0 5px;
+    border-radius:50%;
+}
+
+#active{background:#FEF4E5;color:#333;}
